@@ -1,13 +1,13 @@
 # ECE141_Team_Project
 the goal of this project is to make an IOT dog feeder.
 
-# Challenges
+Challenges
 -making the website
 -interfaceing with the arduinos
 -pushing to the internet
 
 
-# making the website
+## making the website
 we need to make a functional website
 features
 -dog weight monitoring
@@ -23,7 +23,7 @@ features
   -indicator that its healthy
 
 
-# interfacing with arduino
+## interfacing with arduino
 
 https://arduinogetstarted.com/tutorials/arduino-http-request
 
@@ -38,8 +38,8 @@ motor with corkscrew for dispersing food
   - 3d print?
 may need to make a debugging page that displays text of whatever was posted last
 
-#connecting to internet
-## hello world 
+## connecting to internet
+### hello world 
 Purchase a domain name and upload a docker container to run a simple hello world file
 
 tasks to overcome
@@ -53,7 +53,7 @@ tasks to overcome
   -  run docker container on server
   -  fix python code to work with internet
 
-## hello webserving
+### hello webserving
 try and load assignment two on the server and change the domain adresses to get the thing to work
 may have to switch to a different serving program that has better tutorials
 
