@@ -24,7 +24,17 @@ We need to make a functional website features
 
 ## Interfacing with Arduino
 
+**Useful Links**
+
+https://www.amazon.com/HiLetgo-Wireless-Transceiver-Development-Compatible/dp/B010N1ROQS/ref=sr_1_3?dchild=1&keywords=arduino+wifi+module&qid=1617399917&sr=8-3
+
 https://arduinogetstarted.com/tutorials/arduino-http-request
+
+https://www.youtube.com/watch?v=qU76yWHeQuw
+
+https://youtu.be/32VcKyI0dio
+
+https://www.elithecomputerguy.com/2019/07/write-post-data-to-server-with-arduino-uno-with-wifi/
 
 **Commands required on Website**
 - post-water level
