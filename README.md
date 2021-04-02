@@ -1,4 +1,4 @@
-# ECE140B_Team_Project: RUFF RIDERS
+# ECE140B Team Project: RUFF RIDERS
 **The goal of this project is to make an IOT dog feeder.**
 
 ## Challenges
@@ -16,7 +16,7 @@ We need to make a functional website features
 - sql? text file?
 - GPS
   - requesting maps from google api?
-  - just put a realitive location to the home
+  - just put a relative location to the home
   - heart monitor tracking
   - heart beat throughout day 
   - indicator that its healthy
