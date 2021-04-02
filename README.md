@@ -1,26 +1,25 @@
 # ECE141_Team_Project
 the goal of this project is to make an IOT dog feeder.
 
-Challenges
--making the website
--interfaceing with the arduinos
+Challenges\
+-making the website\
+-interfacing with the Arduinos\
 -pushing to the internet
 
 
 ## making the website
-we need to make a functional website
-features
--dog weight monitoring
--water and food consumption charts
--feed now button
--set up automatic feeding times
-    - sql? text file?
+we need to make a functional website features\
+-dog weight monitoring\
+-water and food consumption charts\
+-feed now button\
+-set up automatic feeding times\
+-sql? text file?\
 -GPS
-   - requesting maps from google api?
-   - just put a realitive location to the home
+- requesting maps from google api?
+- just put a realitive location to the home
 - heart monitor tracking
-  -heart beat throughout day
-  -indicator that its healthy
+- heart beat throughout day 
+- indicator that its healthy
 
 
 ## interfacing with arduino
