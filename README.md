@@ -1,7 +1,7 @@
 # ECE140B_Team_Project: RUFF RIDERS
 **The goal of this project is to make an IOT dog feeder.**
 
-##Challenges
+## Challenges
 - making the website
 - interfacing with the Arduinos
 - pushing to the internet
