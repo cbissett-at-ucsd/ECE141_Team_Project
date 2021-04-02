@@ -81,3 +81,8 @@ may have to switch to a different serving program that has better tutorials
   - https://www.youtube.com/watch?v=ZejQOX69K5M
 - **Buy Link**: https://www.amazon.com/SainSmart-HC-SR04-Ranging-Detector-Distance/dp/B004U8TOE6/ref=asc_df_B004U8TOE6/?tag=hyprod-20&linkCode=df0&hvadid=312127837151&hvpos=&hvnetw=g&hvrand=16617634376972589103&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9061191&hvtargid=pla-459285090715&psc=1&tag=&ref=&adgrpid=57636291530&hvpone=&hvptwo=&hvadid=312127837151&hvpos=&hvnetw=g&hvrand=16617634376972589103&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9061191&hvtargid=pla-459285090715
 
+### Arduino GPS Module
+- **Tutorial**: 
+  - https://create.arduino.cc/projecthub/amalmathewtech/arduino-gps-module-destination-notifier-288a55
+  - https://www.youtube.com/watch?v=q2llnFjRSxk
+- **Buy Link**: https://www.amazon.com/Navigation-Positioning-Microcontroller-Compatible-Sensitivity/dp/B084MK8BS2/ref=asc_df_B084MK8BS2/?tag=hyprod-20&linkCode=df0&hvadid=416672656770&hvpos=&hvnetw=g&hvrand=11803108201460712897&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9061191&hvtargid=pla-906486472275&psc=1&tag=&ref=&adgrpid=95587149724&hvpone=&hvptwo=&hvadid=416672656770&hvpos=&hvnetw=g&hvrand=11803108201460712897&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9061191&hvtargid=pla-906486472275
