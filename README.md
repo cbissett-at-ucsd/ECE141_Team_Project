@@ -26,15 +26,15 @@ We need to make a functional website features
 
 **Useful Links**
 
-https://www.amazon.com/HiLetgo-Wireless-Transceiver-Development-Compatible/dp/B010N1ROQS/ref=sr_1_3?dchild=1&keywords=arduino+wifi+module&qid=1617399917&sr=8-3
+- WIFI Transceiver Buy Link: https://www.amazon.com/HiLetgo-Wireless-Transceiver-Development-Compatible/dp/B010N1ROQS/ref=sr_1_3?dchild=1&keywords=arduino+wifi+module&qid=1617399917&sr=8-3
 
-https://arduinogetstarted.com/tutorials/arduino-http-request
+- Arduino HTTP Request: https://arduinogetstarted.com/tutorials/arduino-http-request
 
-https://www.youtube.com/watch?v=qU76yWHeQuw
+- WIFI Sensor Tutorial: https://www.youtube.com/watch?v=qU76yWHeQuw
 
-https://youtu.be/32VcKyI0dio
+- Write POST to Server: https://youtu.be/32VcKyI0dio
 
-https://www.elithecomputerguy.com/2019/07/write-post-data-to-server-with-arduino-uno-with-wifi/
+- Eli Computer Guy: https://www.elithecomputerguy.com/2019/07/write-post-data-to-server-with-arduino-uno-with-wifi/
 
 **Commands required on Website**
 - post-water level
@@ -69,3 +69,15 @@ may have to switch to a different serving program that has better tutorials
 - load files
 - adjust links in the python files
 - figure out problems?
+
+## Possible Sensors to be used
+### Water Level Sensor
+- Tutorial: https://www.youtube.com/watch?v=n7WRi5U5lQk
+- Buy Link: https://www.amazon.com/Sensor-Module-Detection-Surface-Arduino/dp/B01N058HS6/ref=asc_df_B01N058HS6/?tag=hyprod-20&linkCode=df0&hvadid=198091640568&hvpos=&hvnetw=g&hvrand=7398691741834090910&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9061191&hvtargid=pla-350450658191&psc=1
+
+### Distance Sensor
+- Tutorial: 
+  - https://www.tutorialspoint.com/arduino/arduino_ultrasonic_sensor.htm
+  - https://www.youtube.com/watch?v=ZejQOX69K5M
+- Buy Link: https://www.amazon.com/SainSmart-HC-SR04-Ranging-Detector-Distance/dp/B004U8TOE6/ref=asc_df_B004U8TOE6/?tag=hyprod-20&linkCode=df0&hvadid=312127837151&hvpos=&hvnetw=g&hvrand=16617634376972589103&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9061191&hvtargid=pla-459285090715&psc=1&tag=&ref=&adgrpid=57636291530&hvpone=&hvptwo=&hvadid=312127837151&hvpos=&hvnetw=g&hvrand=16617634376972589103&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9061191&hvtargid=pla-459285090715
+
