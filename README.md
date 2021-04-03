@@ -53,23 +53,13 @@ dashboard will have
 - option to manually feed
 
 **required commands**
-- post: from user     to server that the user has requested the dog be manually fed
-- get:  from arduino  to server that checks if the feeder should feed
-- post: from arduino  to server the water level
-- post: from arduino  to server bpm data
+- post:  from user click         that the user has requested the dog be manually fed
+- get:   from website on load    bpm data of last 24 hrs
+- get:   from website on load    the water level
+- get:   from website on load    the last time dog was fed
+- get:   from website on load    ...
 
-We need to make a functional website features
-- dog weight monitoring
-- water and food consumption charts
-- feed now button
-- set up automatic feeding times
-- sql? text file?
-- GPS
-  - requesting maps from google api?
-  - just put a relative location to the home
-  - heart monitor tracking
-  - heart beat throughout day 
-  - indicator that its healthy
+
 -after researching pros and cons of having an application, and considering our time frame, it is best to have
  the entire user experience contained on the website.
 -provide fake login
@@ -81,21 +71,57 @@ We need to make a functional website features
  they will likely hear their owner even if they are kinda far from the feeder. Microphone is also good
  to encourage a shy dog to go to the feeder. Many feeders available have a function to record a voice message. laaaame. lets provide
  the microphone.
+ 
+ ## making the backend  ##
+ using the format of previous labs we will 
+ recive post commands from the arduino to an adress on our website to recive data from it
+ store that data somehow
+ recieve a post command from the user to manually feed the dog
+ store that and when a get command comes in from the arduino send the proper output to it to trigger the motors
+ 
+ * adresses required *
+/login.html
+/dashboard.html
+
+* required commands *
+- post:  that the user has requested the dog be manually fed
+- get:   bpm data of last 24 hrs
+- get    the water level
+- get:   the last time dog was fed
+- post:  water level
+- post:  dog GPS
+- get:   command to give food
+ 
+## Connecting to Internet ##
+** Hello World **
+Purchase a domain name and upload a docker container to run a simple hello world file
+
+**Tasks to Overcome**
+-  Global hello world
+-  buy Domain (complete)
+-  make sure it is being hosted(complete)
+-  load a docker container on the server that loads a helloworld.html to user
+-  load Lab 2 from last quarter into container
+
+** hello Doggo **
+-load backend for current project onto live website
+-make sure everything works
+
+
 
 ## Interfacing with Arduino  ##
 The arduino will be posting sensor input at regular time intervals and making a get request every so often to decide if it is going to perform an action such as feeding the dog.
--enable the set up of a default feeding in the event of internet failure.
+enable the set up of a manual feeding in the event of internet failure.
 
-**Commands required on server**
-- post-water level
-- post-dog GPS
-- get-command to give food
+**Required Commands**
+- post: every 5 minutes    water level
+- post: every minute       dog GPS
+- get:  every minute       command to give food
 
 **Things to purchase**
 - bowl
 - motor with corkscrew for dispersing food
 - 3d print?
-may need to make a debugging page that displays text of whatever was posted last
 
 **Useful Links**
 
@@ -109,28 +135,7 @@ may need to make a debugging page that displays text of whatever was posted last
 
 - **Eli Computer Guy**: https://www.elithecomputerguy.com/2019/07/write-post-data-to-server-with-arduino-uno-with-wifi/
 
-## Connecting to Internet
-### Hello World 
-Purchase a domain name and upload a docker container to run a simple hello world file
 
-**Tasks to Overcome**
--  Global hello world
--  buy Domain
-   - possible website names
-   - notramsin.com
-   - ramsin.tech
-   - ECE141RuffRiders.com
--  load files
--  run docker container on server
--  fix python code to work with internet
-
-### Hello Webserving
-Try and load assignment two on the server and change the domain adresses to get the thing to work
-may have to switch to a different serving program that has better tutorials
-
-- load files
-- adjust links in the python files
-- figure out problems?
 
 ## Possible Sensors to be used
 ### Water Level Sensor
