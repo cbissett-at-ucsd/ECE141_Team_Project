@@ -7,11 +7,11 @@
 - pushing to the internet
 - designing the feeder
 
-** key features**
-- feeding
-- reading water levels
-- reading heart beats
-- way to find dog
+**Key Features**
+- Feeding
+- Reading water levels
+- Reading heart beats
+- Way to find dog
 
 
 ## Design Considerations
