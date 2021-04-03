@@ -52,12 +52,11 @@ The website has a splash page(optional), fake login page, and a dashboard will h
 - Option to manually feed
 
 **Required Commands**
-- post:  from user click         that the user has requested the dog be manually fed
-- get:   from website on load    bpm data of last 24 hrs
-- get:   from website on load    the water level
-- get:   from website on load    the last time dog was fed
-- get:   from website on load    ...
-
+- POST: From user click that the user has requested the dog be manually fed
+- GET:  From a website on load bpm data of last 24 hrs
+- GEt:  From a website on load the water level
+- GET:  From a website on load the last time dog was fed
+- GET:  From a website on load ...
 
 - After researching pros and cons of having an application, and considering our time frame, it is best to have
  the entire user experience contained on the website.
