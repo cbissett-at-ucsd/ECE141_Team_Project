@@ -45,11 +45,11 @@ a tip proof container. food should also be in tip proof container.
 The website hasa splash page(optional), fake login page, and a dashboard
 dashboard will have
 - sensor status's
-    -possible bpm chart of the last 24 hrs 
-    -hydration level illustrated by javascript icon
-    -food level
-    -weight over time option?
-    -gps tracking?
+  - possible bpm chart of the last 24 hrs 
+  - hydration level illustrated by javascript icon
+  - food level
+  - weight over time option?
+  - gps tracking?
 - option to manually feed
 
 **required commands**
