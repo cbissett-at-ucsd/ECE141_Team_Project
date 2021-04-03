@@ -42,17 +42,16 @@ a tip proof container. food should also be in tip proof container.
   - The feeder doesn't dispense the correct amount of food. Someone who tested a bunch of feeders finds that most of them dispensed too much food, which could lead to poor health. 
 
 ## Making the website
-The website hasa splash page(optional), fake login page, and a dashboard
-dashboard will have
-- sensor status's
+The website has a splash page(optional), fake login page, and a dashboard will have
+- Sensor Status's
   - possible bpm chart of the last 24 hrs 
   - hydration level illustrated by javascript icon
   - food level
   - weight over time option?
   - gps tracking?
-- option to manually feed
+- Option to manually feed
 
-**required commands**
+**Required Commands**
 - post:  from user click         that the user has requested the dog be manually fed
 - get:   from website on load    bpm data of last 24 hrs
 - get:   from website on load    the water level
@@ -60,53 +59,50 @@ dashboard will have
 - get:   from website on load    ...
 
 
--after researching pros and cons of having an application, and considering our time frame, it is best to have
+- After researching pros and cons of having an application, and considering our time frame, it is best to have
  the entire user experience contained on the website.
--provide fake login
+- Provide fake login
 
--optional community part of the website for people to post cute pics
--website MUST be mobile friendly 
--since we are tracking the dog, functionality to alert the owner if the dog is doing something its not
+- Optional community part of the website for people to post cute pics
+- Website MUST be mobile friendly 
+- since we are tracking the dog, functionality to alert the owner if the dog is doing something its not
  supposed to be doing so they can yell at it through the microphone on the feeder. Dogs have outstanding hearing so
  they will likely hear their owner even if they are kinda far from the feeder. Microphone is also good
  to encourage a shy dog to go to the feeder. Many feeders available have a function to record a voice message. laaaame. lets provide
  the microphone.
  
- ## making the backend  ##
- using the format of previous labs we will 
- recive post commands from the arduino to an adress on our website to recive data from it
- store that data somehow
- recieve a post command from the user to manually feed the dog
- store that and when a get command comes in from the arduino send the proper output to it to trigger the motors
+## Making the Backend ##
+ Using the format of previous labs we will receive post commands from the arduino to an adress on our website to recive data from it
+ store that data somehow receive a post command from the user to manually feed the dog store that and when a get command comes in from the arduino send the proper output to it to trigger the motors
  
- ** adresses required **
-/login.html
-/dashboard.html
+**Addresses Required**
+- **login.html**
+- **dashboard.html**
 
-** required commands **
-- post:  that the user has requested the dog be manually fed
-- get:   bpm data of last 24 hrs
-- get    the water level
-- get:   the last time dog was fed
-- post:  water level
-- post:  dog GPS
-- get:   command to give food
+**Required Commands**
+- POST:  that the user has requested the dog be manually fed
+- GET:   bpm data of last 24 hrs
+- GET:    the water level
+- GET:   the last time dog was fed
+- POST:  water level
+- POST:  dog GPS
+- GET:   command to give food
  
 ## Connecting to Internet ##
-** Hello World **
-Purchase a domain name and upload a docker container to run a simple hello world file
+**Hello World**
+
+- Purchase a domain name and upload a docker container to run a simple hello world file
 
 **Tasks to Overcome**
 -  Global hello world
--  buy Domain (complete)
--  make sure it is being hosted(complete)
--  load a docker container on the server that loads a helloworld.html to user
--  load Lab 2 from last quarter into container
+-  Buy Domain (complete)
+-  Make sure it is being hosted(complete)
+-  Load a docker container on the server that loads a helloworld.html to user
+-  Load Lab 2 from last quarter into container
 
-** hello Doggo **
--load backend for current project onto live website
--make sure everything works
-
+**Hello Doggo**
+- Load backend for current project onto live website
+- Make sure everything works
 
 
 ## Interfacing with Arduino  ##
@@ -114,13 +110,13 @@ The arduino will be posting sensor input at regular time intervals and making a 
 enable the set up of a manual feeding in the event of internet failure.
 
 **Required Commands**
-- post: every 5 minutes    water level
-- post: every minute       dog GPS
-- get:  every minute       command to give food
+- POST: every 5 minutes, check water level
+- POST: every minute, check dog GPS
+- GET:  every minute, check command to give food
 
-**Things to purchase**
-- bowl
-- motor with corkscrew for dispersing food
+**Things to Purchase**
+- Bowl
+- Motor with corkscrew for dispersing food
 - 3d print?
 
 **Useful Links**
