@@ -7,6 +7,13 @@
 - pushing to the internet
 - designing the feeder
 
+** key features**
+- feeding
+- reading water levels
+- reading heart beats
+- way to find dog
+
+
 ## Design Considerations
 
 - Should refrain from only marketing to dogs since a lot of people purchase these feeders for cats. It is possible that more feeders
@@ -35,6 +42,22 @@ a tip proof container. food should also be in tip proof container.
   - The feeder doesn't dispense the correct amount of food. Someone who tested a bunch of feeders finds that most of them dispensed too much food, which could lead to poor health. 
 
 ## Making the website
+The website hasa splash page(optional), fake login page, and a dashboard
+dashboard will have
+- sensor status's
+ -possible bpm chart of the last 24 hrs 
+ -hydration level illustrated by javascript icon
+ -food level
+ -weight over time option?
+ -gps tracking?
+- option to manually feed
+
+**required commands**
+- post: from user     to server that the user has requested the dog be manually fed
+- get:  from arduino  to server that checks if the feeder should feed
+- post: from arduino  to server the water level
+- post: from arduino  to server bpm data
+
 We need to make a functional website features
 - dog weight monitoring
 - water and food consumption charts
@@ -49,8 +72,8 @@ We need to make a functional website features
   - indicator that its healthy
 -after researching pros and cons of having an application, and considering our time frame, it is best to have
  the entire user experience contained on the website.
--provide login for security and customized experience
--enable the set up of a default feeding in the event of internet failure.
+-provide fake login
+
 -optional community part of the website for people to post cute pics
 -website MUST be mobile friendly 
 -since we are tracking the dog, functionality to alert the owner if the dog is doing something its not
@@ -59,7 +82,20 @@ We need to make a functional website features
  to encourage a shy dog to go to the feeder. Many feeders available have a function to record a voice message. laaaame. lets provide
  the microphone.
 
-## Interfacing with Arduino
+## Interfacing with Arduino  ##
+The arduino will be posting sensor input at regular time intervals and making a get request every so often to decide if it is going to perform an action such as feeding the dog.
+-enable the set up of a default feeding in the event of internet failure.
+
+**Commands required on server**
+- post-water level
+- post-dog GPS
+- get-command to give food
+
+**Things to purchase**
+- bowl
+- motor with corkscrew for dispersing food
+- 3d print?
+may need to make a debugging page that displays text of whatever was posted last
 
 **Useful Links**
 
@@ -72,17 +108,6 @@ We need to make a functional website features
 - **Write POST to Server**: https://youtu.be/32VcKyI0dio
 
 - **Eli Computer Guy**: https://www.elithecomputerguy.com/2019/07/write-post-data-to-server-with-arduino-uno-with-wifi/
-
-**Commands required on Website**
-- post-water level
-- post-dog GPS
-- get-command to give food
-
-**Things to purchase**
-- bowl
-- motor with corkscrew for dispersing food
-- 3d print?
-may need to make a debugging page that displays text of whatever was posted last
 
 ## Connecting to Internet
 ### Hello World 
