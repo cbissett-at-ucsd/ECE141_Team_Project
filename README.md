@@ -79,11 +79,11 @@ dashboard will have
  recieve a post command from the user to manually feed the dog
  store that and when a get command comes in from the arduino send the proper output to it to trigger the motors
  
- * adresses required *
+ ** adresses required **
 /login.html
 /dashboard.html
 
-* required commands *
+** required commands **
 - post:  that the user has requested the dog be manually fed
 - get:   bpm data of last 24 hrs
 - get    the water level
