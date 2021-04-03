@@ -5,7 +5,33 @@
 - making the website
 - interfacing with the Arduinos
 - pushing to the internet
+- designing the feeder
 
+## Design Considerations
+
+-should refrain from only marketing to dogs since a lot of people purchase these feeders for cats. It is possible that more feeders
+ are purchased for cats than dogs since cats are thought to be low maintanence pets and are more likely to be left alone for long
+ periods of time.
+-camera and sound system is needed to be competitive.
+-dogs are smart and they hijack their food sometimes, since water is involved it must be in
+a tip proof container. food should also be in tip proof container.
+-definitely don't want device ruined from a tip, use some physics to make it tip proof or make it emit a sound at an offensive 
+ frequency upon attempted tip. or both. a bunch of feeders were tipped over when a person testing them threw a 10 lb bag of food at the feeder.
+-bowl that pet eats from should be stainless steel.
+-food and water containers should be anti microbial.
+-water dispensing should be automatic.
+-many devices have backup battery in case of power failure.
+-device should have the ability to provide a default feeding in the event that the owner loses internet connection
+ at their location or the location of the feeder (for manual feeding setting).
+-containers that hold food should be fully detachable from the main unit and easy to clean. dishwasher safe would be good.
+-it might be more efficient to make the water dispenser separate from the food dispenser and sell them as a set,
+ since the complicated circuitry will be in the feeder it will be safer this way. Additionally, people could
+ purchase them separately.
+ -might want to consider simple interface that also allows the unit to work without wifi functionality, a simple
+ digital clock with the ability to set a time could provide this functionality.
+ -many feeders allow you to use wet or dry food
+ -2 common complaints to be addresses are 1) the dispenser gets jammed and 2) the feeder doesnt dispense the correct amount of food. Someone
+  who tested a bunch of feeders found that most of them dispensed too much food, which could lead to poor health. 
 
 ## Making the website
 We need to make a functional website features
@@ -20,7 +46,17 @@ We need to make a functional website features
   - heart monitor tracking
   - heart beat throughout day 
   - indicator that its healthy
-
+-after researching pros and cons of having an application, and considering our time frame, it is best to have
+ the entire user experience contained on the website.
+-provide login for security and customized experience
+-enable the set up of a default feeding in the event of internet failure.
+-optional community part of the website for people to post cute pics
+-website MUST be mobile friendly 
+-since we are tracking the dog, functionality to alert the owner if the dog is doing something its not
+ supposed to be doing so they can yell at it through the microphone on the feeder. Dogs have outstanding hearing so
+ they will likely hear their owner even if they are kinda far from the feeder. Microphone is also good
+ to encourage a shy dog to go to the feeder. Many feeders available have a function to record a voice message. laaaame. lets provide
+ the microphone.
 
 ## Interfacing with Arduino
 
