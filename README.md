@@ -9,29 +9,30 @@
 
 ## Design Considerations
 
--should refrain from only marketing to dogs since a lot of people purchase these feeders for cats. It is possible that more feeders
+- Should refrain from only marketing to dogs since a lot of people purchase these feeders for cats. It is possible that more feeders
  are purchased for cats than dogs since cats are thought to be low maintanence pets and are more likely to be left alone for long
  periods of time.
--camera and sound system is needed to be competitive.
--dogs are smart and they hijack their food sometimes, since water is involved it must be in
+- Camera and sound system is needed to be competitive.
+- Dogs are smart, and they hijack their food sometimes, since water is involved it must be in
 a tip proof container. food should also be in tip proof container.
--definitely don't want device ruined from a tip, use some physics to make it tip proof or make it emit a sound at an offensive 
- frequency upon attempted tip. or both. a bunch of feeders were tipped over when a person testing them threw a 10 lb bag of food at the feeder.
--bowl that pet eats from should be stainless steel.
--food and water containers should be anti microbial.
--water dispensing should be automatic.
--many devices have backup battery in case of power failure.
--device should have the ability to provide a default feeding in the event that the owner loses internet connection
+- Definitely don't want device ruined from a tip, use some physics to make it tip proof or make it emit a sound at an offensive 
+ frequency upon an attempted tip. or both. a bunch of feeders were tipped over when a person testing them threw a 10 lb bag of food at the feeder.
+- Bowl that pet eats from should be stainless steel.
+- Food and water containers should be anti-microbial.
+- Water dispensing should be automatic.
+- Many devices have backup battery in case of power failure.
+- Device should have the ability to provide a default feeding in the event that the owner loses internet connection
  at their location or the location of the feeder (for manual feeding setting).
--containers that hold food should be fully detachable from the main unit and easy to clean. dishwasher safe would be good.
--it might be more efficient to make the water dispenser separate from the food dispenser and sell them as a set,
+- Containers that hold food should be fully detachable from the main unit and easy to clean. dishwasher safe would be good.
+- It might be more efficient to make the water dispenser separate from the food dispenser and sell them as a set,
  since the complicated circuitry will be in the feeder it will be safer this way. Additionally, people could
- purchase them separately.
- -might want to consider simple interface that also allows the unit to work without wifi functionality, a simple
+ purchase them separately. 
+- Might want to consider a simple interface that also allows the unit to work without wifi functionality, a simple
  digital clock with the ability to set a time could provide this functionality.
- -many feeders allow you to use wet or dry food
- -2 common complaints to be addresses are 1) the dispenser gets jammed and 2) the feeder doesnt dispense the correct amount of food. Someone
-  who tested a bunch of feeders found that most of them dispensed too much food, which could lead to poor health. 
+- Many feeders allow you to use wet or dry food
+- 2 common complaints to be addresses are 
+  - The dispenser gets jammed 
+  - The feeder doesn't dispense the correct amount of food. Someone who tested a bunch of feeders finds that most of them dispensed too much food, which could lead to poor health. 
 
 ## Making the website
 We need to make a functional website features
