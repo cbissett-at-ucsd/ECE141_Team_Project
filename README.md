@@ -1,4 +1,4 @@
-# ECE140B Team Project: RUFF RIDERS
+# ECE140B Team Project: RUFF RIDERS  inter-act
 **The goal of this project is to make a physical device that the public can interact with via donations or votes.**
 
 ## Challenges
