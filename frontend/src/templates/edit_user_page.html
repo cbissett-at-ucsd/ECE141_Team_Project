@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>EDIT USER</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="lab3.css">
+    </head>
+
+    <body>
+        <h2>edit user</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Row#</th>
+                    <th>First Name</th>
+                    <th>Last Name</th>
+                    <th>Email Address</th>
+                    <th>Username</th>
+                    <th>Password</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>{{user.row}}</td>
+                    <td>{{user.firstName}}</td>
+                    <td>{{user.lastName}}</td>
+                    <td>{{user.email}}</td>
+                    <td>{{user.userName}}</td>
+                    <td>{{user.pwd}}</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <form  action="edit_user" method="POST">
+            <div >
+                <label>row#</label>
+                <input type="number" name="row" value={{user.row}} readonly>
+            </div>
+            <div>
+                <label>First Name</label>
+                <input type="text" name="firstName" value= {{user.firstName}}>
+            </div>
+            <div>
+                <label>Last Name</label>
+                <input type="text" name="lastName" value={{user.lastName}}>
+            </div>
+            <div>
+                <label>Email Address</label>
+                <input type="text" name="email" value={{user.email}}>
+            </div>
+            <div>
+                <label>Username</label>
+                <input type="text" name="userName" value={{user.userName}}>
+            </div>
+            <div>
+                <label>Password</label>
+                <input type="text" name="pwd" value={{user.pwd}}>
+            </div>
+            <input type="submit">
+        </form>
+        <a href="/">Go Home</a>
+    </body>
+</html>

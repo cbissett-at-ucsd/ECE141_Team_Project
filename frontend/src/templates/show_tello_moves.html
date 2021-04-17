@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CMD HISTORY</title>
+        <link rel="stylesheet" type="text/css" href="lab3.css">
+    </head>
+
+    <body>
+        <h1 id="title">TELLO MOVEMENT LOG</h1>
+        
+        <table>
+            <thead>
+                <tr>
+                    <th>pitch</th>
+                    <th>roll</th>
+                    <th>yaw</th>
+                    <th>vgx</th>
+                    <th>vgy</th>
+                    <th>vgz</th>
+                    <th>templ</th>
+                    <th>temph</th>
+                    <th>tof</th>
+                    <th>h</th>
+                    <th>bat</th>
+                    <th>baro</th>
+                    <th>time</th>
+                    <th>agx</th>
+                    <th>agy</th>
+                    <th>agz</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for log in history %}
+                <tr>
+                    <td>{{log.pitch}}</td>
+                    <td>{{log.roll}}</td>
+                    <td>{{log.yaw}}</td>
+                    <td>{{log.vgx}}</td>
+                    <td>{{log.vgy}}</td>
+                    <td>{{log.vgz}}</td>
+                    <td>{{log.templ}}</td>
+                    <td>{{log.temph}}</td>
+                    <td>{{log.tof}}</td>
+                    <td>{{log.h}}</td>
+                    <td>{{log.bat}}</td>
+                    <td>{{log.baro}}</td>
+                    <td>{{log.time}}</td>
+                    <td>{{log.agx}}</td>
+                    <td>{{log.agy}}</td>
+                    <td>{{log.agz}}</td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+        <script src="log_manager.js"></script>
+    </body>
+    
+</html>
