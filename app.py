@@ -1,7 +1,7 @@
 # app.py
 from flask import Flask, request, jsonify
 app = Flask(__name__)
-
+# change
 @app.route('/getmsg/', methods=['GET'])
 def respond():
     # Retrieve the name from url parameter
